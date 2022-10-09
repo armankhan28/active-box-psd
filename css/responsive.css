@@ -1,0 +1,84 @@
+/* XL Device :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+}
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1200px){
+    .container{
+        width: 970px;
+     }
+    .lg-12{
+        width: 100%;
+    }
+    .lg-9{
+        width: 100%;
+    }
+    .lg-5{
+        width: 33%;
+    }
+    .logo{
+        text-align: center;
+    }
+    .menu ul li a {
+        margin-left: 70px;
+    }
+}
+
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .container{
+        width: 750px;
+     }
+     .md-12{
+        width: 100%;
+     }
+     .md-9{
+        width: 100%;
+     }
+     .md-5{
+        width: 50%;
+     }
+     .logo{
+        text-align: center;
+     }
+     .menu ul li a {
+        margin-left: 30px;
+    }
+}
+
+/* Extra small Device. */
+@media (max-width: 767px) {
+    .container{
+        width: 100%;
+        padding: 0 15px;
+     }
+    .slider-inner h1 {
+        font-size: 35px;
+    }
+    .slider-inner p {
+        font-size: 15px;
+    }
+    .sm-4{
+        width: 50%;
+     }
+     .sm-5{
+        width: 100%;
+        text-align: center;
+     }
+     .header-area {
+        width: 100%;
+        left: 0;
+        right: 0;
+        background: #3a3e64;
+        padding: 20px 0;
+    }
+}
+
+/* SM Small Device :550px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .container{
+        width: 550px;
+     }
+}
